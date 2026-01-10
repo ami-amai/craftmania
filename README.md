@@ -204,14 +204,14 @@
 * Type: [Stone](#stone)
 * Tier: 1
 * Requirements: [Pickaxe](#pickaxe)
-* From: [Stone](#stone)
+* From: [Copper Ore Block](#copper-ore-block)
  
 #### Gold Ore Block
 
 * Type: [Stone](#stone)
 * Tier: 1
 * Requirements: [Pickaxe](#pickaxe)
-* From: [Stone](#stone)
+* From: [Iron Ore Block](#iron-ore-block)
  
 #### Copper Ingot
 
