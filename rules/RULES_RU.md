@@ -322,20 +322,20 @@
 
 <details>
   <summary>Крафты дерева</summary>
-    <img src="../images/Wood.png"> 
+    <img src="../main/images/Wood.png"> 
 </details>
 
 <details>
   <summary>Крафты камня (1)</summary>
-    <img src="../images/Stone_1.png"> 
+    <img src="../main/images/Stone_1.png"> 
 </details>
 
 <details>
   <summary>Крафты камня (2)</summary>
-    <img src="../images/Stone_2.png"> 
+    <img src="../main/images/Stone_2.png"> 
 </details>
 
 <details>
   <summary>Крафты земли и еды</summary>
-    <img src="../images/Dirt_Seeds.png"> 
+    <img src="../main/images/Dirt_Seeds.png"> 
 </details>
