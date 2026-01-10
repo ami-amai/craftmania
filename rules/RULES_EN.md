@@ -90,12 +90,19 @@
 ### Types
 
 * #### Resource
+
     * Destroyed by any Tool.
+
 * #### Dirt-type
+
     * Destroyed by a Shovel.
+
 * #### Wooden
+
     * Destroyed by an Axe.
+
 * #### Stone
+
     * Destroyed by a Pickaxe.
 
 ### Items
@@ -140,8 +147,7 @@
 * Tier: 1
 * Requirements: [Crafting Table](#crafting-table), [Planks](#planks), [Dirt](#dirt)
 * From: [Planks](#planks)
-
-* Used to destroy [Dirt-type](#dirt-type) blocks using a resource.
+* **Used to destroy [Dirt-type](#dirt-type) blocks using a resource.**
 
 #### Axe
 
@@ -149,8 +155,7 @@
 * Tier: 1
 * Requirements: [Crafting Table](#crafting-table), [Planks](#planks), [Log](#log)
 * From: [Planks](#planks)
-
-* Used to destroy [Wooden](#wooden) blocks using a resource.
+* **Used to destroy [Wooden](#wooden) blocks using a resource.**
 
 #### Pickaxe
 
@@ -158,8 +163,7 @@
 * Tier: 1
 * Requirements: [Crafting Table](#crafting-table), [Planks](#planks), [Stone](#stone)
 * From: [Planks](#planks)
-
-* Used to destroy [Stone](#stone) blocks using a resource.
+* **Used to destroy [Stone](#stone) blocks using a resource.**
 
 #### Stone
 
@@ -216,7 +220,7 @@
 * Requirements: [Furnace](#furnace), [Pickaxe](#pickaxe)
 * From: [Copper Ore Block](#copper-ore-block)
 
-* Allows destroying Tier 1 blocks using tools; is consumed.
+* **Allows destroying Tier 1 blocks using tools; is consumed.**
  
 #### Copper Block
 
@@ -231,8 +235,7 @@
 * Tier: 1
 * Requirements: [Furnace](#furnace), [Pickaxe](#pickaxe)
 * From: [Iron Ore Block](#iron-ore-block)
- 
-* Allows destroying Tier 2 blocks and below using tools; is consumed.
+* **Allows destroying Tier 2 blocks and below using tools; is consumed.**
 
 #### Iron Block
 
@@ -254,8 +257,7 @@
 * Tier: 1
 * Requirements: [Furnace](#furnace)
 * From: [Gold Ore](#gold-ore)
- 
-* Allows destroying Tier 3 blocks and below using tools; is consumed.
+* **Allows destroying Tier 3 blocks and below using tools; is consumed.**
 
 #### Gold Block
 
@@ -269,8 +271,7 @@
 * Type: [Resource](#resource)
 * Tier: 1
 * **Base Resource**
-
-* When on the field, grants 1 HB every turn.
+* **When on the field, grants 1 HB every turn.**
 
 #### Wheat
 
@@ -285,8 +286,7 @@
 * Tier: 1
 * Requirements: [Crafting Table](#crafting-table), [Wheat](#wheat)
 * From: [Wheat](#wheat)
-
-* Consumable, grants 3 HB when used.
+* **Consumable, grants 3 HB when used.**
 
 #### Carrot
 
@@ -294,9 +294,8 @@
 * Tier: 2
 * Requirements: [Crafting Table](#crafting-table), Bread, Composter
 * From: [Seeds](#seeds)
-
-* Consumable, grants 3 HB when used.
-* When on the field, grants 1 HB every turn.
+* **Consumable, grants 3 HB when used.**
+* **When on the field, grants 1 HB every turn.**
 
 #### Golden Carrot
 
@@ -305,8 +304,8 @@
 * Requirements: [Crafting Table](#crafting-table), [Gold Ingot](#gold-ingot)
 * From: [Carrot](#carrot)
 
-* Consumable, grants 5 HB when used.
-* When on the field, grants 3 HB every turn.
+* **Consumable, grants 5 HB when used.**
+* **When on the field, grants 3 HB every turn.**
 
 #### Dirt
 
