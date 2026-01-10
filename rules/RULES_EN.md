@@ -219,7 +219,6 @@
 * Tier: 1
 * Requirements: [Furnace](#furnace), [Pickaxe](#pickaxe)
 * From: [Copper Ore Block](#copper-ore-block)
-
 * **Allows destroying Tier 1 blocks using tools; is consumed.**
  
 #### Copper Block
@@ -303,7 +302,6 @@
 * Tier: 3
 * Requirements: [Crafting Table](#crafting-table), [Gold Ingot](#gold-ingot)
 * From: [Carrot](#carrot)
-
 * **Consumable, grants 5 HB when used.**
 * **When on the field, grants 3 HB every turn.**
 
@@ -336,10 +334,22 @@
 
 ## Images
 
-![Wood Crafts](/images/Wood.png)
+<details>
+  <summary>Wood Crafts</summary>
+    <img src="../images/Wood.png"> 
+</details>
 
-![Stone Crafts part 1](/images/Stone_1.png)
+<details>
+  <summary>Stone Crafts (1)</summary>
+    <img src="../images/Stone_1.png"> 
+</details>
 
-![Stone Parts part 2](/images/Stone_2.png)
+<details>
+  <summary>Stone Crafts (2)</summary>
+    <img src="../images/Stone_2.png"> 
+</details>
 
-![Dirt and Seeds](/images/Dirt_Seeds.png)
+<details>
+  <summary>Dirt and Seeds Crafts</summary>
+    <img src="../images/Dirt_Seeds.png"> 
+</details>
