@@ -131,21 +131,21 @@
 
 * Type: [Wood](#wooden)
 * Tier: 3
-* Requirements: [Crafting Table](#crafting-table), Axe, [Log](#log) x2
+* Requirements: [Crafting Table](#crafting-table), [Axe](#axe), [Log](#log)
 * From: [Log](#log)
 
 #### Composter
 
 * Type: [Wood](#wooden)
 * Tier: 3
-* Requirements: [Crafting Table](#crafting-table), Axe, [Stripped Log](#stripped-log)
+* Requirements: [Crafting Table](#crafting-table), [Planks](#planks)
 * From: [Stripped Log](#stripped-log)
 
 #### Shovel
 
 * Type: [Resource](#resource)
 * Tier: 1
-* Requirements: [Crafting Table](#crafting-table), [Planks](#planks), [Dirt](#dirt)
+* Requirements: [Crafting Table](#crafting-table), [Planks](#planks)
 * From: [Planks](#planks)
 * **Used to destroy [Dirt-type](#dirt-type) blocks using a resource.**
 
@@ -153,7 +153,7 @@
 
 * Type: [Resource](#resource)
 * Tier: 1
-* Requirements: [Crafting Table](#crafting-table), [Planks](#planks), [Log](#log)
+* Requirements: [Crafting Table](#crafting-table), [Planks](#planks)
 * From: [Planks](#planks)
 * **Used to destroy [Wooden](#wooden) blocks using a resource.**
 
@@ -161,7 +161,7 @@
 
 * Type: [Resource](#resource)
 * Tier: 1
-* Requirements: [Crafting Table](#crafting-table), [Planks](#planks), [Stone](#stone)
+* Requirements: [Crafting Table](#crafting-table), [Planks](#planks)
 * From: [Planks](#planks)
 * **Used to destroy [Stone](#stone) blocks using a resource.**
 
@@ -182,14 +182,14 @@
 
 * Type: [Stone](#stone)
 * Tier: 2
-* Requirements: [Crafting Table](#crafting-table), [Cobblestone](#cobblestone)
+* Requirements: [Crafting Table](#crafting-table)
 * From: [Cobblestone](#cobblestone)
 
 #### Stone Bricks
 
 * Type: [Stone](#stone)
 * Tier: 3
-* Requirements: [Furnace](#furnace), [Crafting Table](#crafting-table), [Stone](#stone) x2
+* Requirements: [Furnace](#furnace), [Crafting Table](#crafting-table), [Stone](#stone)
 * From: [Stone](#stone)
 
 #### Copper Ore Block
