@@ -317,3 +317,13 @@
 * Тир: 3
 * Требования: [Верстак](#верстак), [Плотная грязь](#плотная-грязь)
 * Из: [Плотная грязь](#плотная-грязь)
+
+## Изображения
+
+![Wood Crafts](/images/Wood.png)
+
+![Stone Crafts part 1](/images/Stone_1.png)
+
+![Stone Parts part 2](/images/Stone_2.png)
+
+![Dirt and Seeds](/images/Dirt_Seeds.png)
