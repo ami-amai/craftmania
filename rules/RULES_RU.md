@@ -320,10 +320,22 @@
 
 ## Изображения
 
-![Wood Crafts](/images/Wood.png)
+<details>
+  <summary>Крафты дерева</summary>
+    <img src="../images/Wood.png"> 
+</details>
 
-![Stone Crafts part 1](/images/Stone_1.png)
+<details>
+  <summary>Крафты камня (1)</summary>
+    <img src="../images/Stone_1.png"> 
+</details>
 
-![Stone Parts part 2](/images/Stone_2.png)
+<details>
+  <summary>Крафты камня (2)</summary>
+    <img src="../images/Stone_2.png"> 
+</details>
 
-![Dirt and Seeds](/images/Dirt_Seeds.png)
+<details>
+  <summary>Крафты земли и еды</summary>
+    <img src="../images/Dirt_Seeds.png"> 
+</details>

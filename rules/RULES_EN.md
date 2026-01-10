@@ -333,3 +333,13 @@
 * Tier: 3
 * Requirements: [Crafting Table](#crafting-table), Packed Mud
 * From: [Packed Mud](#packed-mud)
+
+## Images
+
+![Wood Crafts](/images/Wood.png)
+
+![Stone Crafts part 1](/images/Stone_1.png)
+
+![Stone Parts part 2](/images/Stone_2.png)
+
+![Dirt and Seeds](/images/Dirt_Seeds.png)
