@@ -66,10 +66,9 @@
 #### Item
 * Any in-game item that participates in crafting or provides some ability in the game
 * [Items](#item) are specified in the [Ruleset](#ruleset)
-    * Resource — an item consumed during crafting
-    * Food — an item that, when Destroyed, grants a greater amount of HP
+* Additional functionality within the [Core Rules](#core-rules) may be defined in [Rulesets](#ruleset)
+    * Resource — an item consumed during [Crafting](#craft)
     * Attack Item — an item that allows performing an attack
-    * Storage — an item that grants additional inventory slots
 
 #### HP
 * A Health Point Block (HPb (HP) / HpB (HB)), required to place [Items](#item) on the [Field](#field), and can also be spent for certain [Actions](#action)
