@@ -9,15 +9,15 @@
 
 ## Main Set
 
-**Item set**
+**Item Set**
 
 * Resources
-  * Wood ![Wood](/img/blocks/x16/oak_log.png)
+  * Oak Log ![Oak Log](/img/blocks/x16/oak_log.png)
   * Stone ![Stone](/img/blocks/x16/stone.png)
   * Beef ![Beef](/img/items/x16/beef.png)
   * Arrow ![Arrow](/img/items/x16/arrow.png)
   * Wooden Hoe ![Wooden Hoe](/img/items/x16/wooden_hoe.png)
-* Utility blocks
+* Functional Items
   * Crafting Table ![Crafting Table](/img/blocks/x16/crafting_table_side.png)
   * Barrel ![Barrel](/img/blocks/x16/barrel_side.png)
   * Furnace ![Furnace](/img/blocks/x16/furnace_front.png)
@@ -25,11 +25,11 @@
   * Wooden Sword ![Wooden Sword](/img/items/x16/wooden_sword.png)
   * Wooden Axe ![Wooden Axe](/img/items/x16/wooden_axe.png)
   * Wooden Pickaxe ![Wooden Pickaxe](/img/items/x16/wooden_pickaxe.png)
-* Combat items
+  * Shield ![Shield](/img/items/x16/shield_front.png)
+* Weapons
   * Wooden Sword ![Wooden Sword](/img/items/x16/wooden_sword.png)
   * Wooden Axe ![Wooden Axe](/img/items/x16/wooden_axe.png)
   * Bow ![Bow](/img/items/x16/bow.png)
-  * Shield ![Shield](/img/items/x16/shield_front.png)
 * Food
   * Beef ![Beef](/img/items/x16/beef.png)
   * Steak ![Steak](/img/items/x16/cooked_beef.png)
@@ -37,14 +37,14 @@
 
 ---
 
-**Mechanics set**
+**Mechanics Set**
 
-**Starting conditions**
+**Starting Conditions**
 
 * 3 inventory slots
-* 3 actions on the first turn
+* 3 Actions on the first turn
 * 3 HP in the inventory
-* Board size:
+* Place size:
   * 4x4 for 2 players
   * 6x6 for 3 players
   * 8x8 for 4 players
@@ -52,32 +52,37 @@
 
 **Actions**
 
-* **Crafting** - performed on the board using ingredients and required items
-  * Ingredients must touch each other (including diagonally)
+* **Craft** - performed with resources and required items on the place
+  * Resources must touch each other, including diagonally
 
-* **Attack** - can be performed simultaneously with the Movement of the attacking item on the board
-  * requires a certain amount of HP in the inventory, which is removed before the attack
+* **Attack** - can be performed together with the Move of the attacking item on the place
+  * requires a certain amount of HP in the inventory, and removes it before the Attack
 
-* **Destruction** - destroying any item except Food gives 1 HP
+* **Destroy** - destroying any item except Food gives 1 HP
+  * One HP from Destroy can be placed immediately
 
 **Items**
 
 * **Resources** - items consumed for certain actions
 
-* **Utility block** - blocks that expand gameplay options
-  * Crafting Table ![Crafting Table](/img/blocks/x16/crafting_table_side.png) - unlocks advanced recipes while it is on the board
-  * Furnace ![Furnace](/img/blocks/x16/furnace_front.png) - unlocks advanced recipes while it is on the board
-  * Barrel ![Barrel](/img/blocks/x16/barrel_side.png) - provides 2 inventory slots while it is on the board
-    * If the number of slots is reduced, the inventory owner may choose which items remain
+* **Functional Item** - items that expand gameplay options
+  * Crafting Table ![Crafting Table](/img/blocks/x16/crafting_table_side.png) - gives advanced Crafts while it is on the place
+  * Furnace ![Furnace](/img/blocks/x16/furnace_front.png) - gives advanced Crafts while it is on the place
+  * Barrel ![Barrel](/img/blocks/x16/barrel_side.png) - gives 2 inventory slots while it is on the place
+    * When the slot count is reduced, the inventory owner may choose which items remain
 
-* **Tools** - items that simplify gameplay
-  * Wooden Sword ![Wooden Sword](/img/items/x16/wooden_sword.png) - allows taking Beef
-  * Wooden Axe ![Wooden Axe](/img/items/x16/wooden_axe.png) - reduces the number of Woods required in recipes by 1
-  * Wooden Pickaxe ![Wooden Pickaxe](/img/items/x16/wooden_pickaxe.png) - allows taking Stone
+* **Tools** - items that simplify the game
+  * Wooden Sword ![Wooden Sword](/img/items/x16/wooden_sword.png) - allows Looting Beef
+  * Wooden Axe ![Wooden Axe](/img/items/x16/wooden_axe.png) - reduces the amount of Oak Log required in Crafts by 1
+  * Wooden Pickaxe ![Wooden Pickaxe](/img/items/x16/wooden_pickaxe.png) - allows Looting Stone
+  * Shield ![Shield](/img/items/x16/shield_front.png) - absorbs one Attack, taking the damage itself
+    * Triggers if it can be destroyed during the current Attack
+    * When triggered, it is deleted together with its HP, canceling the Attack action
+    * Only one can be owned per player
 
-* **Combat items** - items that have an attack action and their own attack parameters
+* **Weapons** - items that have the Attack action and their own Attack parameters
   * Wooden Sword ![Wooden Sword](/img/items/x16/wooden_sword.png)
-    * Area 3x3 around the sword at the final movement position
+    * Area 3x3 around the sword at the final point of the Move
     * Attack types:
       * Primary
         * Cost **5**
@@ -87,7 +92,7 @@
         * Destroys 1 HP
 
   * Wooden Axe ![Wooden Axe](/img/items/x16/wooden_axe.png)
-    * Area 3x3 around the axe at the final movement position
+    * Area 3x3 around the axe at the final point of the Move
     * Attack types:
       * Primary
         * Cost **6**
@@ -98,35 +103,32 @@
     * Attack types:
       * Primary
         * Cost **4**
-        * Destroys 1 HP
-        * Requires 1 Arrow on the board, removed after the attack
+        * Destroys an amount of HP equal to its Arrows on the place during the Attack
+        * Requires Arrows on the place, which are deleted after the Attack
 
-  * Shield ![Shield](/img/items/x16/shield_front.png)
-    * Area of the opponent's attack being performed
-    * Absorbs all attack damage, removed together with its own HP when triggered
-
-* **Food** - gives more HP when destroyed than other items
+* **Food** - gives more HP on Destroy than other items
   * Beef ![Beef](/img/items/x16/beef.png) - **2**
   * Steak ![Steak](/img/items/x16/cooked_beef.png) - **5**
   * Bread ![Bread](/img/items/x16/bread.png) - **3**
 
 **Mechanics**
 
-* **One combat item type** - at any given moment, only one type of Combat item can be owned
-  * When another type is obtained, all Combat items of the previous type must be removed
+* **One Weapon** - at any moment, only one type of Weapon can be owned
+  * When another type is obtained, all Weapons of the previous type must be deleted
 
-* **Picking up items** - after attacking, the attacking item can take any items from destroyed HP into its inventory
-  * Items not picked up will be removed
+* **Looting Items** - after an Attack, the attacker can Loot any items from destroyed HP into its inventory
+  * Items not Looted will be deleted
 
 ---
 
-**Recipes**
+**Crafts**
 
-Requirements | Ingredients | Result
+Requirements | Resources | Result
 -|-|-
-[]()| ![Wood](/img/blocks/x32/oak_log.png) ![Wood](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Barrel](/img/blocks/x32/barrel_side.png)
-![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Wood](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Barrel](/img/blocks/x32/barrel_side.png) OR ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Wooden Pickaxe](/img/items/x32/wooden_pickaxe.png) OR ![Wooden Hoe](/img/items/x32/wooden_hoe.png) OR ![Bow](/img/items/x32/bow.png) OR ![Arrow](/img/items/x32/arrow.png)
+[]()| ![Oak Log](/img/blocks/x32/oak_log.png) ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Barrel](/img/blocks/x32/barrel_side.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Barrel](/img/blocks/x32/barrel_side.png) OR ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Wooden Pickaxe](/img/items/x32/wooden_pickaxe.png) OR ![Wooden Hoe](/img/items/x32/wooden_hoe.png) OR ![Bow](/img/items/x32/bow.png) OR ![Arrow](/img/items/x32/arrow.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Wooden Hoe](/img/items/x32/wooden_hoe.png) | ![Bread](/img/items/x32/bread.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Stone](/img/blocks/x32/stone.png) | ![Furnace](/img/blocks/x32/furnace_front.png)
-![Furnace](/img/blocks/x32/furnace_front.png)| ![Wood](/img/blocks/x32/oak_log.png) ![Stone](/img/blocks/x32/stone.png) | ![Shield](/img/items/x32/shield_front.png)
-![Furnace](/img/blocks/x32/furnace_front.png)| ![Wood](/img/blocks/x32/oak_log.png) ![Beef](/img/items/x32/beef.png) | ![Steak](/img/items/x32/cooked_beef.png)
+![Furnace](/img/blocks/x32/furnace_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) ![Stone](/img/blocks/x32/stone.png) | ![Shield](/img/items/x32/shield_front.png)
+![Furnace](/img/blocks/x32/furnace_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) ![Beef](/img/items/x32/beef.png) | ![Steak](/img/items/x32/cooked_beef.png)
+</details>

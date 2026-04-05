@@ -6,7 +6,7 @@
 
 ## [RU](/ru/README.md) | [**EN**](/en/README.md)
 
-* A turn-based game for 2 to 4 players where the goal is to remove your opponent from the board using every game mechanic available
+* A turn-based game for 2 to 4 players where the goal is to remove your opponent from the place using every game mechanic available
 
 ## Contents
 
@@ -18,37 +18,37 @@
 
 ## Introduction
 
-* The game is played on a board up to 8x8 in size
+* The game is played on a place up to 8x8 in size
 * Players take turns, and each turn they have a certain number of Actions
-* A player loses if they have no HP left on the board
+* A player loses if they have no HP left on the place
 * The game ends when only one player remains
 
 ## Terms
 
-### HP (Health Block)
+### HP (Health Point block)
 
-* Placed on the board
+* Placed on the place
 * Can contain an item
 * Gains 1 Action
-* Must be present on the board for the game to continue
+* Must be present on the place for the game to continue
 
 ### Action
 
 * An available activity during a turn
 * Actions:
-    * Movement - changing the position of items in the game
-    * Looting - obtaining items
-    * Attack - any action or condition that destroys HP on the board
-    * Crafting - creating items from ingredients
-    * Destruction - removing an item for a reward and by spending an action
-    * Removal - removing an item without a reward and without spending an action
+    * Move - changing the position of items in the game
+    * Loot - obtaining items
+    * Attack - any action or condition that destroys HP on the place
+    * Craft - creating items from resources
+    * Destroy - removing an item for a reward and by spending an action
+    * Delete - removing an item without a reward and without spending an action
 
 ### Ruleset
 
 * A list of rules that includes:
     * Item set
     * Mechanics set
-    * Recipes
+    * Crafts
     <details>
 
     <summary> List of Rulesets </summary>
@@ -64,22 +64,22 @@
 
 ## Actions
 
-* Movement - changing the position of items in the game:
-    * Board <-> Inventory
-    * Board <-> Board
+* Move - changing the position of items in the game:
+    * Place <-> Inventory
+    * Place <-> Place
     * Inventory <-> Inventory, usually does not cost an action
 
-* Gathering - obtaining items into the inventory or onto an empty HP
-    * Gathering parameters
+* Loot - obtaining items into the inventory or onto an empty HP
+    * Loot parameters
         * conditions
-    * Also possible when the required ingredients for a Recipe are missing
+    * Also possible when the required resources for a Craft are missing
 
-* Crafting - creating items from ingredients
-    * Crafting parameters
+* Craft - creating items from resources
+    * Craft parameters
         * required items
-        * ingredients
+        * resources
         * placement
-    * Produces the created item while removing the ingredients used
+    * Produces the created item while removing the resources used
 
 * Attack - any action or condition linked to the destruction of HP in a certain area for some cost
     * Attack parameters
@@ -87,8 +87,8 @@
         * Area
         * Number of blocks destroyed
 
-* Destruction - removing an item for a reward
-    * Destruction parameters
+* Destroy - removing an item for a reward
+    * Destroy parameters
         * item
         * reward
-    * Removal - a subtype of Destruction, without a reward and without spending an action
+    * Delete - a subtype of Destroy, without a reward and without spending an action
