@@ -12,28 +12,28 @@
 **Набор предметов**
 
 * Ресурсы
-  * Дерево ![Дерево](/img/icons/blocks/x16/oak_log.png)
-  * Камень ![Камень](/img/icons/blocks/x16/stone.png)
-  * Сырое мясо ![Сырое мясо](/img/icons/items/x16/beef.png)
-  * Стрела ![Стрела](/img/icons/items/x16/arrow.png)
-  * Мотыга ![Мотыга](/img/icons/items/x16/wooden_hoe.png)
+  * Дерево ![Дерево](/img/blocks/x16/oak_log.png)
+  * Камень ![Камень](/img/blocks/x16/stone.png)
+  * Сырое мясо ![Сырое мясо](/img/items/x16/beef.png)
+  * Стрела ![Стрела](/img/items/x16/arrow.png)
+  * Мотыга ![Мотыга](/img/items/x16/wooden_hoe.png)
 * Функциональные предметы
-  * Верстак ![Верстак](/img/icons/blocks/x16/crafting_table_side.png)
-  * Бочка ![Бочка](/img/icons/blocks/x16/barrel_side.png)
-  * Печка ![Печка](/img/icons/blocks/x16/furnace_front.png)
+  * Верстак ![Верстак](/img/blocks/x16/crafting_table_side.png)
+  * Бочка ![Бочка](/img/blocks/x16/barrel_side.png)
+  * Печка ![Печка](/img/blocks/x16/furnace_front.png)
 * Инструменты
-  * Меч ![Меч](/img/icons/items/x16/wooden_sword.png)
-  * Топор ![Топор](/img/icons/items/x16/wooden_axe.png)
-  * Кирка ![Кирка](/img/icons/items/x16/wooden_pickaxe.png)
+  * Меч ![Меч](/img/items/x16/wooden_sword.png)
+  * Топор ![Топор](/img/items/x16/wooden_axe.png)
+  * Кирка ![Кирка](/img/items/x16/wooden_pickaxe.png)
 * Атакующие предметы
-  * Меч ![Меч](/img/icons/items/x16/wooden_sword.png)
-  * Топор ![Топор](/img/icons/items/x16/wooden_axe.png)
-  * Лук ![Лук](/img/icons/items/x16/bow.png)
-  * Щит ![Щит](/img/icons/items/x16/shield_front.png)
+  * Меч ![Меч](/img/items/x16/wooden_sword.png)
+  * Топор ![Топор](/img/items/x16/wooden_axe.png)
+  * Лук ![Лук](/img/items/x16/bow.png)
+  * Щит ![Щит](/img/items/x16/shield_front.png)
 * Еда
-  * Сырое мясо ![Сырое мясо](/img/icons/items/x16/beef.png)
-  * Жаренное мясо ![Жаренное мясо](/img/icons/items/x16/cooked_beef.png)
-  * Хлеб ![Хлеб](/img/icons/items/x16/bread.png)
+  * Сырое мясо ![Сырое мясо](/img/items/x16/beef.png)
+  * Жаренное мясо ![Жаренное мясо](/img/items/x16/cooked_beef.png)
+  * Хлеб ![Хлеб](/img/items/x16/bread.png)
 
 ---
 
@@ -65,18 +65,18 @@
 * **Ресурсы** - предметы, расходуемые для каких-либо действий
 
 * **Функциональный предмет** - предметы, расширяющие возможности игры
-  * Верстак ![Верстак](/img/icons/blocks/x16/crafting_table_side.png) - дает расширенные крафты, пока находится на поле
-  * Печка ![Печка](/img/icons/blocks/x16/furnace_front.png) - дает расширенные крафты, пока находится на поле
-  * Бочка ![Бочка](/img/icons/blocks/x16/barrel_side.png) - дает 2 слота инвентаря, пока находится на поле
+  * Верстак ![Верстак](/img/blocks/x16/crafting_table_side.png) - дает расширенные крафты, пока находится на поле
+  * Печка ![Печка](/img/blocks/x16/furnace_front.png) - дает расширенные крафты, пока находится на поле
+  * Бочка ![Бочка](/img/blocks/x16/barrel_side.png) - дает 2 слота инвентаря, пока находится на поле
     * При уменьшении количества слотов, владелец инвентаря может выбрать предметы, которые останутся
 
 * **Инструменты** - предметы, упрощающие игру
-  * Меч ![Меч](/img/icons/items/x16/wooden_sword.png) - позволяет брать Сырое мясо
-  * Топор ![Топор](/img/icons/items/x16/wooden_axe.png) - уменьшает количетсво необходимого Дерева в крафтах на 1
-  * Кирка ![Кирка](/img/icons/items/x16/wooden_pickaxe.png) - позволяет брать Камень
+  * Меч ![Меч](/img/items/x16/wooden_sword.png) - позволяет брать Сырое мясо
+  * Топор ![Топор](/img/items/x16/wooden_axe.png) - уменьшает количетсво необходимого Дерева в крафтах на 1
+  * Кирка ![Кирка](/img/items/x16/wooden_pickaxe.png) - позволяет брать Камень
 
 * **Атакующие предметы** - предметы, имеющие действие атаки, и имеющие собственные параметры атаки
-  * Меч ![Меч](/img/icons/items/x16/wooden_sword.png)
+  * Меч ![Меч](/img/items/x16/wooden_sword.png)
     * Область 3х3 вокруг меча в конечной точке перемещения
     * Типы атаки:
       * Основная
@@ -86,14 +86,14 @@
         * Стоимость **3**
         * Разрушает 1 ХП
 
-  * Топор ![Топор](/img/icons/items/x16/wooden_axe.png)
+  * Топор ![Топор](/img/items/x16/wooden_axe.png)
     * Область 3х3 вокруг меча в конечной точке перемещения
     * Типы атаки:
       * Основная
         * Стоимость **6**
         * Разрушает 8 ХП
 
-  * Лук ![Лук](/img/icons/items/x16/bow.png)
+  * Лук ![Лук](/img/items/x16/bow.png)
     * Область неограниченная
     * Типы атаки:
       * Основная
@@ -101,14 +101,14 @@
         * Разрушает 1 ХП
         * Требует 1 стрелу на поле, удаляется после атаки
 
-  * Щит ![Щит](/img/icons/items/x16/shield_front.png)
+  * Щит ![Щит](/img/items/x16/shield_front.png)
     * Область чужой производимой атаки
     * Поглощает весь урон атаки, удаляется вместе со своим ХП при срабатывании
 
 * **Еда** - дает большее количество ХП при разрушении, чем другие предметы
-  * Сырое мясо ![Сырое мясо](/img/icons/items/x16/beef.png) - **2**
-  * Жаренное мясо ![Жаренное мясо](/img/icons/items/x16/cooked_beef.png) - **5**
-  * Хлеб ![Хлеб](/img/icons/items/x16/bread.png) - **3**
+  * Сырое мясо ![Сырое мясо](/img/items/x16/beef.png) - **2**
+  * Жаренное мясо ![Жаренное мясо](/img/items/x16/cooked_beef.png) - **5**
+  * Хлеб ![Хлеб](/img/items/x16/bread.png) - **3**
 
 **Механики**
 
@@ -124,9 +124,9 @@
 
 Требования | Ресурсы | Результат
 -|-|-
-[]()| ![Дерево](/img/icons/blocks/x32/oak_log.png) ![Дерево](/img/icons/blocks/x32/oak_log.png) | ![Верстак](/img/icons/blocks/x32/crafting_table_front.png) ИЛИ ![Бочка](/img/icons/blocks/x32/barrel_side.png)
-![Верстак](/img/icons/blocks/x32/crafting_table_front.png)| ![Дерево](/img/icons/blocks/x32/oak_log.png) | ![Верстак](/img/icons/blocks/x32/crafting_table_front.png) ИЛИ ![Бочка](/img/icons/blocks/x32/barrel_side.png) ИЛИ ![Меч](/img/icons/items/x32/wooden_sword.png) ИЛИ ![Топор](/img/icons/items/x32/wooden_axe.png) ИЛИ ![Кирка](/img/icons/items/x32/wooden_pickaxe.png) ИЛИ ![Мотыга](/img/icons/items/x32/wooden_hoe.png) ИЛИ ![Лук](/img/icons/items/x32/bow.png) ИЛИ ![Стрела](/img/icons/items/x32/arrow.png)
-![Верстак](/img/icons/blocks/x32/crafting_table_front.png)| ![Мотыга](/img/icons/items/x32/wooden_hoe.png) | ![Хлеб](/img/icons/items/x32/bread.png)
-![Верстак](/img/icons/blocks/x32/crafting_table_front.png)| ![Камень](/img/icons/blocks/x32/stone.png) | ![Печка](/img/icons/blocks/x32/furnace_front.png)
-![Печка](/img/icons/blocks/x32/furnace_front.png)| ![Дерево](/img/icons/blocks/x32/oak_log.png) ![Камень](/img/icons/blocks/x32/stone.png) | ![Щит](/img/icons/items/x32/shield_front.png)
-![Печка](/img/icons/blocks/x32/furnace_front.png)| ![Дерево](/img/icons/blocks/x32/oak_log.png) ![Сырое мясо](/img/icons/items/x32/beef.png) | ![Жаренное мясо](/img/icons/items/x32/cooked_beef.png)
+[]()| ![Дерево](/img/blocks/x32/oak_log.png) ![Дерево](/img/blocks/x32/oak_log.png) | ![Верстак](/img/blocks/x32/crafting_table_front.png) ИЛИ ![Бочка](/img/blocks/x32/barrel_side.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) | ![Верстак](/img/blocks/x32/crafting_table_front.png) ИЛИ ![Бочка](/img/blocks/x32/barrel_side.png) ИЛИ ![Меч](/img/items/x32/wooden_sword.png) ИЛИ ![Топор](/img/items/x32/wooden_axe.png) ИЛИ ![Кирка](/img/items/x32/wooden_pickaxe.png) ИЛИ ![Мотыга](/img/items/x32/wooden_hoe.png) ИЛИ ![Лук](/img/items/x32/bow.png) ИЛИ ![Стрела](/img/items/x32/arrow.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Мотыга](/img/items/x32/wooden_hoe.png) | ![Хлеб](/img/items/x32/bread.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Камень](/img/blocks/x32/stone.png) | ![Печка](/img/blocks/x32/furnace_front.png)
+![Печка](/img/blocks/x32/furnace_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) ![Камень](/img/blocks/x32/stone.png) | ![Щит](/img/items/x32/shield_front.png)
+![Печка](/img/blocks/x32/furnace_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) ![Сырое мясо](/img/items/x32/beef.png) | ![Жаренное мясо](/img/items/x32/cooked_beef.png)
