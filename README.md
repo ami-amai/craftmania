@@ -1,123 +1,87 @@
-# CRAFTMANIA
+# КРАФТМАНИЯ
 
-## [RU](/ru/README.md) | [**EN**](/en/README.md)
+# Ядро правил
 
-* A strategic turn-based game in which you must develop and destroy all [HP](#hp) of your opponents to win, for 2 to 4 players
+* Конструктор для наборов правил
 
-## Table of Contents
+## [**RU**](/ru/README.md) | [EN](/en/README.md)
 
-* [Introduction](#introduction)
-* [Terminology](#terminology)
-    * [Rules](#rules)
-        * [Core Rules](#core-rules)
-        * [Ruleset](#ruleset)
-    * [Game](#game)
-        * [Field](#field)
-        * [Inventory](#inventory)
-        * [Action](#action)
-        * [Item](#item)
-        * [HP](#hp)
-* [Actions](#actions)
-    * [Placement](#placement)
-        * [Place](#place)
-        * [Move](#move)
-        * [Swap](#swap)
-        * [Attack](#attack)
-    * [Obtain](#obtain)
-    * [Craft](#craft)
-    * [Destroy](#destroy)
+* Пошаговая игра от 2-ух до 4-ёх, цель которой убрать противника с поля, используя все возможности игры
 
-## Introduction
+## Содержание
 
-* The game operates under the [Core Rules](#core-rules) with a [Ruleset](#ruleset)
+* Введение
+* Термины
+    * ХП
+    * Действие
+* Действия
 
-* Players accumulate [Resources](#item) and craft [Items](#item) from them to gain an advantage
+## Введение
 
-* Each turn, a player may use several available [Actions](#action) for whatever they need
+* Игра проходит на поле размером до 8х8
+* Игроки ходят поочередно, и каждый ход имеют определенное количество Действий
+* Игрок проигрывает, если у него не остается ХП на поле
+* Игра заканчивается когда остается один игрок
 
-* Placing [Items](#item) on the [Field](#field) is done using [HP](#hp)
+## Термины
 
-## Terminology
+### ХП (Блок здоровья)
 
-### Rules
+* Устанавливается на поле
+* Может содержать предмет
+* Дает 1 Действие
+* Необходимо наличие на поле для продолжения игры
 
-#### Core Rules
-* Rules that generally work with any Ruleset, are immutable, and describe the core game mechanics
+### Действие
 
-#### Ruleset
-* Rules containing the [Items](#item) in the game, the ways to Craft and Obtain them, attack patterns and costs, the behavior of any other [Items](#item), and can be changed
+* Доступная активность во время хода
+* Действия:
+    * Перемещение - изменение положения предметов в игре
+    * Добыча - получение предметов
+    * Атака - любое действие либо условие, разрушающее ХП на поле
+    * Крафт - создание предметов путем объединения ресурсов
+    * Разрушение - удаление предмета за награду и с использованием действия
+    * Удаление - удаление предмета без награды и без использования действия
+    
+### Набор правил
 
-### Game
+* Список правил, включающий:
+    * Набор предметов
+    * Набор механик
+    * Крафты
 
-#### Field
-* The game board on which all main actions take place
-* Size is defined by the [Ruleset](#ruleset)
+### Инвентарь
 
-#### Inventory
-* The game inventory, up to 9 slots, where you can place [Items](#item) from the [Field](#field)
-* Size is defined by the [Ruleset](#ruleset)
+* Игровой инвентарь виден каждому игроку
+* Содержит до 9 предметов
 
-#### Action
-* An activity that can be performed during a turn
-* [Actions](#actions) are defined by the [Core Rules](#core-rules)
+## Действия
 
-[**Actions**](#actions)
+* Перемещение - изменение положение предметов в игре:
+    * Поле <-> Инвентарь
+    * Поле <-> Поле
+    * Инвентарь <-> Инвентарь, обычно не затрачивает действие
 
-#### Item
-* Any in-game item that participates in crafting or provides some ability in the game
-* [Items](#item) are specified in the [Ruleset](#ruleset)
-* Additional functionality within the [Core Rules](#core-rules) may be defined in [Rulesets](#ruleset)
-    * Resource — an item consumed during [Crafting](#craft)
-    * Attack Item — an item that allows performing an attack
+* Добыча - получение предметов в инветарь либо на пустой ХП
+    * Параметры добычи
+        * условия
+    * Также возможна при отсутсвии необходимых ресурсов в Крафте
 
-#### HP
-* A Health Point Block (HPb (HP) / HpB (HB)), required to place [Items](#item) on the [Field](#field), and can also be spent for certain [Actions](#action)
+* Крафт - создание предметов путем объединения ресурсов
+    * Параметры крафта
+        * требуемые предметы
+        * ресурсы
+        * расположение
+    * Добывает созданный предмет, удаляя использованные ресурсы
 
-## Actions
+* Атака - любое действие либо условие, к которому привязано разрушение ХП в определенной области за некоторую стоимость
+    * Параметры атаки
+        * Стоимость
+        * Область
+        * Количество разрушаемых блоков
 
-### Placement
-
-* An [Action](#action) aimed at changing the position of [Items](#item) in the game
-
-#### Place
-
-* Placing [HP](#hp) on the [Field](#field)
-    * Empty [HP](#hp)
-    * With an [Item](#item)
-
-#### Move
-
-* Moving [Items](#item) across the [Field](#field)
-    * Inventory -> [Field](#field) (empty [HP](#hp))
-    * [Field](#field) -> Inventory (empty slot)
-
-#### Swap
-
-* Swapping [Items](#item) with each other
-    * [Field](#field) <-> Inventory
-    * [Field](#field) <-> [Field](#field)
-
-#### Attack
-
-* The [Action](#action) is performed by any [Placement](#placement) of an attack [Item](#item) on the [Field](#field), spends [HP](#hp) and destroys all [HP](#hp) in a certain pattern as specified in the [Ruleset](#ruleset)
-* You can spend your own [HP](#hp) from the [Field](#field) for an attack, but all [Items](#item) on those [HP](#hp) will be destroyed
-* An attack may have its own destruction methods and conditions according to the current [Ruleset](#ruleset)
-
-### Obtain
-
-* An [Action](#action) used to receive a [Resource](#item)
-    * Into inventory (empty slot)
-    * Onto the [Field](#field) (empty [HP](#hp))
-
-### Craft
-
-* An [Action](#action) used to create new [Items](#item) from [Resources](#item)
-    * All [Resources](#item) must be on the [Field](#field) adjacent to each other (within a radius of 1 block)
-    * Crafting some [Items](#item) requires other [Items](#item) to be present on the [Field](#field)
-    * All [Resources](#item) are destroyed after [Crafting](#craft)
-
-### Destroy
-
-* An [Action](#action) that destroys [Items](#item)
-    * For free, in exchange for nothing
-    * For an [Action](#action), in exchange for 1 [HP](#hp)
+* Разрушение - удаление предмета за награду
+    * Параметры разрушения
+        * предмет
+        * награда
+    * Удаление - подвид разрушения, без награды и без использования действия
