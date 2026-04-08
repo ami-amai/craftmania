@@ -53,7 +53,8 @@
 
     <summary> Список наборов правил </summary>
 
-    * [По умолчанию](/en/rulesets/DEFAULT.md)
+    * [Основной набор](/ru/rulesets/DEFAULT.md)
+    * [Кандидат на Основной набор](/ru/rulesets/DEFAULT_CANDIDATE.md.md)
 
     </details>
 

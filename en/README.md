@@ -53,7 +53,8 @@
 
     <summary> List of Rulesets </summary>
 
-    * [Default](/en/rulesets/DEFAULT.md)
+    * [Main Set](/en/rulesets/DEFAULT.md)
+    * [Candidate for Main Set](/en/rulesets/DEFAULT_CANDIDATE.md)
 
     </details>
 
