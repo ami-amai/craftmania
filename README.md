@@ -10,11 +10,10 @@
 
 ## Contents
 
-* Introduction
-* Terms
-    * HP
-    * Action
-* Actions
+* [Introduction](#introduction)
+* [Rulesets](#rulesets)
+* [Terms](#terms)
+* [Actions](#actions)
 
 ## Introduction
 
@@ -22,6 +21,10 @@
 * Players take turns, and each turn they have a certain number of Actions
 * A player loses if they have no HP left on the place
 * The game ends when only one player remains
+
+## Rulesets
+* [Main Set](/en/rulesets/DEFAULT.md)
+* [Candidate for Main Set](/en/rulesets/DEFAULT_CANDIDATE.md)
 
 ## Terms
 
@@ -49,14 +52,6 @@
     * Item set
     * Mechanics set
     * Crafts
-    <details>
-
-    <summary> List of Rulesets </summary>
-
-    * [Main Set](/en/rulesets/DEFAULT.md)
-    * [Candidate for Main Set](/en/rulesets/DEFAULT_CANDIDATE.md)
-
-    </details>
 
 ### Inventory
 
