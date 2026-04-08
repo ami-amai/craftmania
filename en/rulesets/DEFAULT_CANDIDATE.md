@@ -126,7 +126,7 @@
     * Primary Attack
       * Unlimited area
       * Cost Steak ![Steak](/img/items/x16/cooked_beef.png) and Arrow ![Arrow](/img/items/x16/arrow.png)
-      * Destroys a line of HP in any direction from the Crossbow ![Crossbow](/img/items/x16/crossbow_standby.png)
+      * Destroys a line of HP in any direction from the Crossbow (45 degrees) ![Crossbow](/img/items/x16/crossbow_standby.png)
 
 * **Food** - gives more HP on Destroy than other items
   * Beef ![Beef](/img/items/x16/beef.png) - **2**
@@ -151,6 +151,10 @@ Requirements | Resources | Result
 []()| ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) | ![Barrel](/img/blocks/x32/barrel_side.png) OR ![Wooden Pickaxe](/img/items/x32/wooden_pickaxe.png) OR ![Wooden Hoe](/img/items/x32/wooden_hoe.png) OR ![Arrow](/img/items/x32/arrow.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) ![Oak Log](/img/blocks/x32/oak_log.png) | ![Chest](/img/blocks/x32/chest_front.png) OR ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Bow](/img/items/x32/bow.png) OR ![Crossbow](/img/items/x32/crossbow_standby.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Wooden Sword](/img/items/x32/wooden_sword.png) | ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Bow](/img/items/x32/bow.png) OR ![Crossbow](/img/items/x32/crossbow_standby.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Wooden Axe](/img/items/x32/wooden_axe.png) | ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Bow](/img/items/x32/bow.png) OR ![Crossbow](/img/items/x32/crossbow_standby.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Bow](/img/items/x32/bow.png) | ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Crossbow](/img/items/x32/crossbow_standby.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Crossbow](/img/items/x32/crossbow_standby.png) | ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Bow](/img/items/x32/bow.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Wheat](/img/items/x32/wheat.png) | ![Bread](/img/items/x32/bread.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Stone](/img/blocks/x32/stone.png) | ![Furnace](/img/blocks/x32/furnace_front.png)
 ![Furnace](/img/blocks/x32/furnace_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) ![Stone](/img/blocks/x32/stone.png) | ![Shield](/img/items/x32/shield_front.png)
