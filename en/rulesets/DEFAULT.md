@@ -1,4 +1,4 @@
-# DEFAULT RULESET
+# MAIN RULESET
 
 ## [RU](/ru/rulesets/DEFAULT.md) | [**EN**](/en/rulesets/DEFAULT.md)
 
@@ -56,7 +56,7 @@
   * Resources must touch each other, including diagonally
 
 * **Attack** - can be performed together with the Move of the attacking item on the place
-  * requires a certain amount of HP in the inventory, and removes it before the Attack
+  * requires a certain amount of HP in the inventory and removes it before the Attack
 
 * **Destroy** - destroying any item except Food gives 1 HP
   * One HP from Destroy can be placed immediately
@@ -92,7 +92,7 @@
         * Destroys 1 HP
 
   * Wooden Axe ![Wooden Axe](/img/items/x16/wooden_axe.png)
-    * Area 3x3 around the axe at the final point of the Move
+    * Area 3x3 around the sword at the final point of the Move
     * Attack types:
       * Primary
         * Cost **6**
@@ -113,8 +113,9 @@
 
 **Mechanics**
 
-* **One Weapon** - at any moment, only one type of Weapon can be owned
-  * When another type is obtained, all Weapons of the previous type must be deleted
+* **One Weapon** - only one type of Weapon can be on the place
+  * When another type of Weapon appears on the place, the previous type must be deleted
+  * Move "Place <-> Inventory" between two Weapon types deletes the Weapon that was moved from the place to the inventory
 
 * **Looting Items** - after an Attack, the attacker can Loot any items from destroyed HP into its inventory
   * Items not Looted will be deleted
@@ -125,8 +126,9 @@
 
 Requirements | Resources | Result
 -|-|-
-[]()| ![Oak Log](/img/blocks/x32/oak_log.png) ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Barrel](/img/blocks/x32/barrel_side.png)
-![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Barrel](/img/blocks/x32/barrel_side.png) OR ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Wooden Pickaxe](/img/items/x32/wooden_pickaxe.png) OR ![Wooden Hoe](/img/items/x32/wooden_hoe.png) OR ![Bow](/img/items/x32/bow.png) OR ![Arrow](/img/items/x32/arrow.png)
+[]()| ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) | ![Crafting Table](/img/blocks/x32/crafting_table_front.png) OR ![Wooden Pickaxe](/img/items/x32/wooden_pickaxe.png) OR ![Wooden Hoe](/img/items/x32/wooden_hoe.png) OR ![Arrow](/img/items/x32/arrow.png)
+![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) ![Oak Log](/img/blocks/x32/oak_log.png) | ![Barrel](/img/blocks/x32/barrel_side.png) OR ![Wooden Sword](/img/items/x32/wooden_sword.png) OR ![Wooden Axe](/img/items/x32/wooden_axe.png) OR ![Bow](/img/items/x32/bow.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Wooden Hoe](/img/items/x32/wooden_hoe.png) | ![Bread](/img/items/x32/bread.png)
 ![Crafting Table](/img/blocks/x32/crafting_table_front.png)| ![Stone](/img/blocks/x32/stone.png) | ![Furnace](/img/blocks/x32/furnace_front.png)
 ![Furnace](/img/blocks/x32/furnace_front.png)| ![Oak Log](/img/blocks/x32/oak_log.png) ![Stone](/img/blocks/x32/stone.png) | ![Shield](/img/items/x32/shield_front.png)

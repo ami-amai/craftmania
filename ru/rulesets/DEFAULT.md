@@ -1,4 +1,4 @@
-# НАБОР ПРАВИЛ ПО УМОЛЧАНИЮ
+# ОСНОВНОЙ НАБОР ПРАВИЛ
 
 ## [**RU**](/ru/rulesets/DEFAULT.md) | [EN](/en/rulesets/DEFAULT.md)
 
@@ -113,8 +113,9 @@
 
 **Механики**
 
-* **Одно оружие** - в моменте, можно иметь только один тип Оружия
-  * При получении другого типа, все Оружия предыдущего типа должны быть удалены
+* **Одно оружие** - можно иметь только один тип оружия на поле
+  * При появлении другого типа оружия на поле, предыдущий тип должен быть удален
+  * Перемещение "Поле <-> Инвентарь" между двумя типами оружия, удаляет оружие которое было перемещено с поля в инвентарь
 
 * **Поднятие предметов** - возможность атакующему, после атаки, взять любые предметы с разрушенных ХП себе в инвентарь
   * Не поднятые предметы будут удалены
@@ -125,8 +126,9 @@
 
 Требования | Ресурсы | Результат
 -|-|-
-[]()| ![Дерево](/img/blocks/x32/oak_log.png) ![Дерево](/img/blocks/x32/oak_log.png) | ![Верстак](/img/blocks/x32/crafting_table_front.png) ИЛИ ![Бочка](/img/blocks/x32/barrel_side.png)
-![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) | ![Верстак](/img/blocks/x32/crafting_table_front.png) ИЛИ ![Бочка](/img/blocks/x32/barrel_side.png) ИЛИ ![Меч](/img/items/x32/wooden_sword.png) ИЛИ ![Топор](/img/items/x32/wooden_axe.png) ИЛИ ![Кирка](/img/items/x32/wooden_pickaxe.png) ИЛИ ![Мотыга](/img/items/x32/wooden_hoe.png) ИЛИ ![Лук](/img/items/x32/bow.png) ИЛИ ![Стрела](/img/items/x32/arrow.png)
+[]()| ![Дерево](/img/blocks/x32/oak_log.png) | ![Верстак](/img/blocks/x32/crafting_table_front.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) | ![Верстак](/img/blocks/x32/crafting_table_front.png) ИЛИ ![Кирка](/img/items/x32/wooden_pickaxe.png) ИЛИ ![Мотыга](/img/items/x32/wooden_hoe.png) ИЛИ ![Стрела](/img/items/x32/arrow.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) ![Дерево](/img/blocks/x32/oak_log.png) | ![Бочка](/img/blocks/x32/barrel_side.png) ИЛИ ![Меч](/img/items/x32/wooden_sword.png) ИЛИ ![Топор](/img/items/x32/wooden_axe.png) ИЛИ ![Лук](/img/items/x32/bow.png)
 ![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Мотыга](/img/items/x32/wooden_hoe.png) | ![Хлеб](/img/items/x32/bread.png)
 ![Верстак](/img/blocks/x32/crafting_table_front.png)| ![Камень](/img/blocks/x32/stone.png) | ![Печка](/img/blocks/x32/furnace_front.png)
 ![Печка](/img/blocks/x32/furnace_front.png)| ![Дерево](/img/blocks/x32/oak_log.png) ![Камень](/img/blocks/x32/stone.png) | ![Щит](/img/items/x32/shield_front.png)
