@@ -73,9 +73,9 @@
 
 * **Resources with Attributes** - resources whose presence in the inventory at the end of the turn gives bonuses at the start of the next turn
   * Attributes - bonuses to existing parameters
-    * ![Healing](/img/items/x16/lime_dye.png) Healing ![Beef](/img/items/x16/beef.png) (Amount of HP gained from Destroy)
+    * ![Healing](/img/items/x16/lime_dye.png) Healing ![Beef](/img/items/x16/beef.png) (Increases HP gained from Destroying items and Health gained from Destroying Food by 1)
     * ![Action](/img/items/x16/light_blue_dye.png) Action ![Wheat](/img/items/x16/wheat.png) (Additional Action that ignores the current limit)
-    * ![Damage](/img/items/x16/red_dye.png) Damage ![Arrow](/img/items/x16/arrow.png) (Number of destroyed blocks)
+    * ![Damage](/img/items/x16/red_dye.png) Damage ![Arrow](/img/items/x16/arrow.png) (Increases the number of blocks destroyed by Attack by 1)
   * No more than 3 Attributes at once
 
 * **Functional Item** - items that expand gameplay options
