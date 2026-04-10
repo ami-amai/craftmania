@@ -48,6 +48,7 @@
 * 3 inventory slots
 * 3 Actions on the first turn
 * 3 HP in the inventory
+* 20 Health
 * Place size:
   * 4x4 for 2 players
   * 6x6 for 3 players
@@ -129,9 +130,9 @@
       * Destroys a line of HP in any direction from the Crossbow (45 degrees) ![Crossbow](/img/items/x16/crossbow_standby.png)
 
 * **Food** - gives more HP on Destroy than other items
-  * Beef ![Beef](/img/items/x16/beef.png) - **2**
-  * Steak ![Steak](/img/items/x16/cooked_beef.png) - **5**
-  * Bread ![Bread](/img/items/x16/bread.png) - **3**
+  * Beef ![Beef](/img/items/x16/beef.png) - **2 HP**
+  * Steak ![Steak](/img/items/x16/cooked_beef.png) - **5 + 3 Health**
+  * Bread ![Bread](/img/items/x16/bread.png) - **3 HP + 1 Health**
 
 **Mechanics**
 
@@ -141,6 +142,10 @@
 
 * **Item Drops** - after HP is destroyed, the item inside remains in the same cell on the place
   * The item can be Looted by placing HP on it
+
+* **Health** - a reserve of HP that can be gained during the game
+  * Can be partially restored by Food
+  * If it runs out, the player can no longer gain new HP
 
 ---
 
