@@ -26,6 +26,7 @@
 
 * [Основной набор](/ru/rulesets/DEFAULT.md)
 * [Кандидат на Основной набор](/ru/rulesets/DEFAULT_CANDIDATE.md)
+* [Кандидат-2 на Основной набор](/ru/rulesets/DEFAULT_CANDIDATE-2.md)
 
 ## Термины
 

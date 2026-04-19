@@ -23,8 +23,10 @@
 * The game ends when only one player remains
 
 ## Rulesets
+
 * [Main Set](/en/rulesets/DEFAULT.md)
 * [Candidate for Main Set](/en/rulesets/DEFAULT_CANDIDATE.md)
+* [Candidate-2 for Main Set](/en/rulesets/DEFAULT_CANDIDATE-2.md)
 
 ## Terms
 
@@ -32,7 +34,7 @@
 
 * Placed on the place
 * Can contain an item
-* Gains 1 Action
+* Gives 1 Action
 * Must be present on the place for the game to continue
 
 ### Action
@@ -42,15 +44,15 @@
     * Move - changing the position of items in the game
     * Loot - obtaining items
     * Attack - any action or condition that destroys HP on the place
-    * Craft - creating items from resources
-    * Destroy - removing an item for a reward and by spending an action
-    * Delete - removing an item without a reward and without spending an action
+    * Craft - creating items by combining resources
+    * Destroy - removing an item for a reward and by spending an Action
+    * Delete - removing an item without a reward and without spending an Action
 
 ### Ruleset
 
-* A list of rules that includes:
-    * Item set
-    * Mechanics set
+* A list of rules including:
+    * Item Set
+    * Mechanics Set
     * Crafts
 
 ### Inventory
@@ -63,28 +65,28 @@
 * Move - changing the position of items in the game:
     * Place <-> Inventory
     * Place <-> Place
-    * Inventory <-> Inventory, usually does not cost an action
+    * Inventory <-> Inventory, usually does not spend an Action
 
 * Loot - obtaining items into the inventory or onto an empty HP
     * Loot parameters
         * conditions
     * Also possible when the required resources for a Craft are missing
 
-* Craft - creating items from resources
+* Craft - creating items by combining resources
     * Craft parameters
         * required items
         * resources
         * placement
-    * Produces the created item while removing the resources used
+    * Produces the created item, deleting the used resources
 
 * Attack - any action or condition linked to the destruction of HP in a certain area for some cost
     * Attack parameters
         * Cost
         * Area
-        * Number of blocks destroyed
+        * Number of destroyed blocks
 
 * Destroy - removing an item for a reward
     * Destroy parameters
         * item
         * reward
-    * Delete - a subtype of Destroy, without a reward and without spending an action
+    * Delete - a subtype of Destroy, without a reward and without spending an Action
