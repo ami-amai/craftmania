@@ -138,60 +138,55 @@
     * Область 3х3 воркуг
     * Разрушает 1 ХП
     * Расходует
-        * 3 Ягоды ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png)
+      * 3 Ягоды ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png) 
     
   * Меч ![Меч](/img/items/x16/wooden_sword.png)
     * Основная атака
       * Область 3х3 воркуг
       * Разрушает 3 ХП
       * Расходует
-        * Хлеб ![Хлеб](/img/items/x16/bread.png) + 2 Ягоды ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png)
-        * Сырая Рыба ![Сырая Рыба](/img/items/x16/cod.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+        * 2 Сырых Рыбы ![Сырая Рыба](/img/items/x16/cod.png) ![Сырая Рыба](/img/items/x16/cod.png)
+        * 2 Хлеба ![Хлеб](/img/items/x16/bread.png) ![Хлеб](/img/items/x16/bread.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
 
   * Топор ![Топор](/img/items/x16/wooden_axe.png)
     * Основная атака
       * Область 3х3 вокруг
       * Разрушает 6 ХП
       * Расходует
-        * Жаренная Рыба ![Жаренная Рыба](/img/items/x16/cooked_cod.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
-        * Жаренное Мясо ![Жаренное Мясо](/img/items/x16/cooked_beef.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+        * 2 Жаренных Рыбы ![Жаренная Рыба](/img/items/x16/cooked_cod.png) ![Жаренная Рыба](/img/items/x16/cooked_cod.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+        * 2 Жаренных Мяса ![Жаренное Мясо](/img/items/x16/cooked_beef.png) ![Жаренное Мясо](/img/items/x16/cooked_beef.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+        * Жаренная рыба ![Жаренная Рыба](/img/items/x16/cooked_cod.png) + Жаренное Мясо ![Жаренное Мясо](/img/items/x16/cooked_beef.png) Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
 
   * Копье ![Копье](/img/items/x16/wooden_spear.png)
-    * Близкая основная атака
+    * Основная ближняя атака
       * Область 3х3 воркуг
-      * Разрушает 1 ХП
+      * Разрушает 1 ХП + 1 ХП за каждое перемещение Копья ![Копье](/img/items/x16/wooden_spear.png), включая Атаку, во время хода
+      * Можно использовать без перемещение Копья ![Копье](/img/items/x16/wooden_spear.png)
       * Расходует
-        * Сырая Рыба ![Сырая Рыба](/img/items/x16/cod.png)
-        * Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png)
-    * Дальняя основная атака
-      * Область 5x5 не включая 3x3 воркуг
-      * Разрушает 2 ХП
-      * Расходует
-        * 2 Сырой Рыбы ![Сырая Рыба](/img/items/x16/cod.png) ![Сырая Рыба](/img/items/x16/cod.png)
+        * 2 Сырых Рыбы ![Сырая Рыба](/img/items/x16/cod.png) ![Сырая Рыба](/img/items/x16/cod.png)
         * 2 Сырых Мяса ![Сырое Мясо](/img/items/x16/beef.png) ![Сырое Мясо](/img/items/x16/beef.png)
-        * Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png) + Сырая Рыба ![Сырая Рыба](/img/items/x16/cod.png)
-    * Очень дальняя основная атака
-      * Область 7х7 не включая 5х5 воркуг
-      * Разрушает 4 ХП
+        * 2 Хлеба ![Хлеб](/img/items/x16/bread.png) ![Хлеб](/img/items/x16/bread.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+    * Основная дальняя атака
+      * Область 5x5 не включая 3x3 воркуг
+      * Разрушает 1 ХП + 1 ХП за каждое перемещение Копья ![Копье](/img/items/x16/wooden_spear.png), включая Атаку, во время хода
       * Расходует
-        * Жаренная Рыба ![Жаренная Рыба](/img/items/x16/cooked_cod.png)
-        * Жаренное Мясо ![Жаренное Мясо](/img/items/x16/cooked_beef.png)
-
+        * Жаренная Рыба ![Жаренная Рыба](/img/items/x16/cooked_cod.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+        * Жаренное Мясо ![Жаренное Мясо](/img/items/x16/cooked_beef.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
+    * Накопленный урон сбрасывается после атаки
   * Лук ![Лук](/img/items/x16/bow.png)
     * Основная атака
       * Неограниченная область
       * Разрушает 1 ХП за каждую израсходованную Стрелу ![Стрела](/img/items/x16/arrow.png)
       * Расходует
-        * Все Стрелы ![Стрела](/img/items/x16/arrow.png) на поле + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) за каждую Стрелу ![Стрела](/img/items/x16/arrow.png) + Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png)
-        * Все Стрелы ![Стрела](/img/items/x16/arrow.png) на поле + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) за каждую Стрелу ![Стрела](/img/items/x16/arrow.png) + Сырую Рыбу ![Сырая Рыба](/img/items/x16/cod.png)
-
+        * Все Стрелы ![Стрела](/img/items/x16/arrow.png) с поля + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png)
   * Арбалет ![Арбалет](/img/items/x16/crossbow_standby.png)
     * Основная атака
       * Неограниченная область
-      * Разрушает 4 ХП
+      * Разрушает 1 ХП за каждую израсходавонную Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) во время атаки
       * Расходует
-        * Стрелу ![Стрела](/img/items/x16/arrow.png) на поле + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) + Жаренную Рыбу ![Жаренная Рыба](/img/items/x16/cooked_cod.png)
-        * Стрелу ![Стрела](/img/items/x16/arrow.png) на поле + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) + Жаренное Мясо ![Жаренное Мясо](/img/items/x16/cooked_beef.png)
+        * Стрелу ![Стрела](/img/items/x16/arrow.png) с поля + Сырая Рыба ![Сырая Рыба](/img/items/x16/cod.png) + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) за каждую единицу длины атаки
+        * Стрелу ![Стрела](/img/items/x16/arrow.png) с поля + Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png) + Ягоду ![Ягоды](/img/items/x16/sweet_berries.png) за каждую единицу длины атаки
+      * Разрушает одно из 8 направлений, начиная с Арбалета ![Арбалет](/img/items/x16/crossbow_standby.png), длина линии определяется количеством 
 
   * Щит ![Щит](/img/items/x16/shield_front.png)
     * Основная атака
@@ -200,31 +195,28 @@
         * Может быть разрушен текущей атакой
         * Имеется достаточно расходников
       * Расходует
-        * Хлеб ![Хлеб](/img/items/x16/bread.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
-        * Сырая Рыба ![Сырая Рыба](/img/items/x16/cod.png)
-        * Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png)
+        * 2 Сырых Рыбы ![Сырая Рыба](/img/items/x16/cod.png) ![Сырая Рыба](/img/items/x16/cod.png)
+        * 2 Сырых Мяса ![Сырое Мясо](/img/items/x16/beef.png) ![Сырое Мясо](/img/items/x16/beef.png)
       * Разрушает половину от разрушаемых противником ХП, с округлением в пользу владельца Щита ![Щит](/img/items/x16/shield_front.png)
 
   * Удочка ![Удочка](/img/items/x16/fishing_rod.png)
     * Основная атака
       * Область 5x5 вокруг
-      * Разрушает 2 ХП
+      * Разрушает 3 ХП
       * Расходует
-        * Хлеб ![Хлеб](/img/items/x16/bread.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
-        * Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png)
+        * 2 Сырых Рыбы ![Сырая Рыба](/img/items/x16/cod.png) ![Сырая Рыба](/img/items/x16/cod.png)
+        * 2 Хлеба ![Хлеб](/img/items/x16/bread.png) ![Хлеб](/img/items/x16/bread.png) + Ягода ![Ягоды](/img/items/x16/sweet_berries.png)
       * Добывает предметы с разрушенных ХП
     
   * Палка ![Палка](/img/items/x16/stick.png)
     * Копирующая атака
-      * Может использовать любую атаку другого оружия, областью не больше 5х5 вокруг
+      * Может использовать любую атаку другого оружия, областью не больше 3x3 вокруг
       * Расходует
-        * Идентично изначальной атаке + Сырая Рыба ![Сырая Рыба](/img/items/x16/cod.png)
-        * Идентично изначальной атаке +  Сырое Мясо ![Сырое Мясо](/img/items/x16/beef.png)
-        * Расходует идентично изначальной атаке + 3 Ягоды ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png) ![Ягоды](/img/items/x16/sweet_berries.png)
-      * Наносит в 2 раза меньше с округлением в пользу владельца Палки ![Палка](/img/items/x16/stick.png)
+        * Расход изначальной атаки
+      * Может разрушить не больше 4 ХП
 
 * **Еда** - дает повышенное количество ХП при разрушении, а также требуется для действия Атаки
-  * Ягоды ![Ягоды](/img/items/x16/sweet_berries.png) - 1 ХП
+  * Ягоды ![Ягоды](/img/items/x16/sweet_berries.png) - 1 единица Здоровья
   * Хлеб ![Хлеб](/img/items/x16/bread.png) - 2 ХП
   * Рыба
     * Сырая ![Сырая Рыба](/img/items/x16/cod.png) - 3 ХП
@@ -253,6 +245,9 @@
       * Разовые бонусы разово применяются всем игрокам до конца игры
       * Пассивные бонусы не требуют заблокированного предмета
       * Нельзя Скрафтить или Добыть
+      * Еда больше не требуется для атаки
+        * Еслин напримен на атаку требуется Хлеб ![Хлеб](/img/items/x16/bread.png) или Мясо ![Сырое мясо](/img/items/x16/beef.png), то при блокировке одного из вариантов, для атаки используется второй вариант, и только если заблокированы все варианты расходников, атака не требует никаких расходников
+
     * Нельзя блокировать базовые ресурсы
 
 * **Выпадение предметов** - после разрушения ХП, предмет внутри остается в той же ячейке на поле
@@ -277,8 +272,8 @@
 
 Требования | Ресурсы | Результат
 -|-|-
-![Верстак](/img/blocks/x32/crafting_table_front.png) | ![Дерево](/img/blocks/x32/oak_log.png) | ![Кирка](/img/items/x32/wooden_pickaxe.png) ИЛИ ![Мотыга](/img/items/x32/wooden_hoe.png)  ИЛИ ![Лук](/img/items/x32/bow.png) ИЛИ ![Арбалет](/img/items/x32/crossbow_standby.png) ИЛИ ![Копье](/img/items/x32/wooden_spear.png)
-![Верстак](/img/blocks/x32/crafting_table_front.png) | ![Дерево](/img/blocks/x32/oak_log.png) ![Дерево](/img/blocks/x32/oak_log.png) | ![Меч](/img/items/x32/wooden_sword.png) ИЛИ ![Топор](/img/items/x32/wooden_axe.png) ИЛИ ![Удочка](/img/items/x32/fishing_rod.png) ИЛИ ![Палка](/img/items/x32/stick.png) ИЛИ ![Щит](/img/items/x32/shield_front.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png) | ![Дерево](/img/blocks/x32/oak_log.png) | ![Кирка](/img/items/x32/wooden_pickaxe.png) ИЛИ ![Мотыга](/img/items/x32/wooden_hoe.png) ИЛИ ![Стрела](/img/items/x32/arrow.png)
+![Верстак](/img/blocks/x32/crafting_table_front.png) | ![Дерево](/img/blocks/x32/oak_log.png) ![Дерево](/img/blocks/x32/oak_log.png) | ![Меч](/img/items/x32/wooden_sword.png) ИЛИ ![Топор](/img/items/x32/wooden_axe.png) ИЛИ ![Лук](/img/items/x32/bow.png) ИЛИ ![Арбалет](/img/items/x32/crossbow_standby.png) ИЛИ ![Копье](/img/items/x32/wooden_spear.png) ИЛИ ![Удочка](/img/items/x32/fishing_rod.png) ИЛИ ![Палка](/img/items/x32/stick.png) ИЛИ ![Щит](/img/items/x32/shield_front.png)
 
 **Еда**
 
